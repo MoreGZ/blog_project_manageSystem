@@ -1,0 +1,9 @@
+.articlePage{
+    height: 100%;
+}
+.add_article_btn{ 
+    margin: 20px 10px; 
+    float:right;
+    width:100;
+    font-size:12px;
+}
