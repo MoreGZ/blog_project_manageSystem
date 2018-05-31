@@ -1,0 +1,21 @@
+.loading_box{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: rgba(255,255,255,0.8);
+    z-index: 10;
+    text-align: center;
+}
+
+.loading_box i{
+    position: absolute;
+    left: 48%;                                                                                                                                                                                                                                                                                                                                                              
+}
+
+.loading_box span{
+    position: absolute;
+    top: 40%;
+    left: 48%;
+}

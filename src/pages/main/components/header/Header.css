@@ -1,0 +1,24 @@
+:global(.fade-enter){
+    opacity: 0;
+}
+
+:global(.fade-enter.fade-enter-active){
+    opacity: 1;
+    transition: all 700ms linear;
+}
+
+:global(.fade-leave){
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+
+:global(.fade-leave.fade-leave-active){
+    opacity: 0;
+    transition: all 700ms linear;
+}
+
+.loadingSpin {
+    position: absolute;
+    top:10px; 
+    left:48%;
+}

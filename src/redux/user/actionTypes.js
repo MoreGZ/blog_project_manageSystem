@@ -1,0 +1,19 @@
+export const LOGIN_START = "LOGIN_START";
+
+export const LOGIN_FINISH = "LOGIN_FINISH";
+
+export const LOGIN_ERROR = "LOGIN_ERROR";
+
+export const LOGOUT_START = "LOGOUT_START";
+
+export const LOGOUT_FINISH = "LOGOUT_FINISH";
+
+export const LOGOUT_ERROR = "LOGOUT_ERROR";
+
+export const CHECKLOGIN_START = "CHECKLOGIN_START";
+
+export const CHECKLOGIN_FINISH = "CHECKLOGIN_FINISH";
+
+export const CHECKLOGIN_ERROR = "CHECKLOGIN_ERROR";
+
+export const RESET_ERROR = "RESET_ERROR";

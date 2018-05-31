@@ -1,33 +1,19 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import Route from "@/routes";
 
-import { checkLog } from "@/redux/action.js";
-
-import Main from "@/components/pages/main/main.jsx";
-import Login from "@/components/pages/login/login.jsx";
-
-import isloginHoc from '@/components/hoc/isloginHoc';
-
+// const App = () => (
+//   <div className="App" style={{height:'100%'}}>
+//       <Route></Route>
+//   </div>
+// )
 
 class App extends Component {
-  state = {}
-  componentDidMount(){
-    this.props.checkLog();
-  }
-  render() {
-    const AppView = isloginHoc(this.props.isLogin)(Main,Login);
+  render(){
     return (
       <div className="App" style={{height:'100%'}}>
-        <AppView></AppView>  
+        <Route></Route>
       </div>
-    );
+    )
   }
 }
-export default connect(
-  (state) => ({
-    isLogin:state.isLogin
-  }),
-  {
-    checkLog
-  }
-)(App);
+export default App

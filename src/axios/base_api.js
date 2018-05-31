@@ -4,9 +4,7 @@ import config from '@/config/config'
 const baseApi = (method, url, params) => {
     return new Promise((resolve,reject) => {
         // 判断传进来的是不是object
-        // console.log(typeof params)
         if(typeof params !== "object") params = {};
-        // console.log(params)
         let options = {
             baseURL: config.baseUrl,
             url,

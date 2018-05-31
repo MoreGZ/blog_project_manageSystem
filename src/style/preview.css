@@ -1,0 +1,23 @@
+.title{
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+}
+.pre_body{
+    position:fixed;
+    width:100%;
+    top:0;
+    bottom:0;
+    left:0;
+    z-index:2;
+}
+.pre_main{
+    width:1200px;
+    height: 100%;
+    background-color: #f0f2f5;
+    padding: 40px 40px 80px;
+    font-size: 16px;
+    line-height: 1.75;
+    overflow-y: auto;
+    color: #333;
+}
